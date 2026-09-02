@@ -1,0 +1,83 @@
+body {
+    background-color:  #0d1b2a;
+}
+/* 1. Make the shelf pretty */
+.navbar {
+    display: flex;                  /* Activates "Lego-brick mode" so items line up horizontally */
+    justify-content: space-between; /* Pushes the logo to the far left, and the links to the far right */
+    align-items: center;            /* Centers everything perfectly from top to bottom */
+    background-color: #0d1b2a;      /* Paints the background dark navy blue */
+    padding: 15px 30px;             /* Gives the shelf some breathing room so it looks thick */
+}
+
+/* 2. Style the Logo */
+.logo {
+    color: #e0e1dd;                /* Makes the logo text light gray */
+    font-size: 24px;                /* Makes the logo text bigger */
+    font-weight: bold;              /* Makes the logo text thick */
+}
+
+/* 3. Line up the links side-by-side */
+.nav-links {
+    display: flex;                  /* Puts Home, About, and Contact in a straight line */
+    list-style: none;               /* Deletes the ugly black bullet points */
+    gap: 20px;                      /* Leaves a neat gap between each word */
+}
+
+/* 4. Make the links look clean */
+.nav-links a {
+    color: #778da9;                /* Colors the links a cool slate blue */
+    text-decoration: none;         /* Erases the default underline under the words */
+}
+
+/* 5. The Magic Hover Effect */
+.nav-links a:hover {
+    color: #e0e1dd;                /* Glows light gray when your mouse hovers over it! */
+}
+/* 1. Main Page Settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffffff; /* Clean white for the rest of your website */
+    color: #0d1b2a;            /* Dark text below the navbar */
+}
+
+/* 2. The Top Box (Now Light Gray!) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e1dd; /* Your light gray color for the top bar box */
+    padding: 15px 30px;
+    border-bottom: 2px solid #778da9; /* Adds a nice slate blue underline to separate it */
+}
+
+/* 3. Logo Text (Dark Navy) */
+.logo {
+    color: #0d1b2a;            /* Dark navy so it shows up on the light gray */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 4. Link Container */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 5. Individual Links (Steel Blue) */
+.nav-links a {
+    color: #415a77;            /* Steel blue links */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* 6. Link Hover State */
+.nav-links a:hover {
+    color: #0d1b2a;            /* Turns dark navy when you hover your mouse over it */
+}
